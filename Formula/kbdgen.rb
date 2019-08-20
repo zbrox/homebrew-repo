@@ -5,7 +5,7 @@ class Kbdgen < Formula
   homepage "https://divvun.github.io/kbdgen/"
   url "https://github.com/divvun/kbdgen/archive/v1.0.7.tar.gz"
   version "1.0.7"
-  sha256 "1b6331f532713cc7ee878d1920c7d01626930bc110354de4d3caca418fc5212a"
+  sha256 "b56c50a8317c0a9279adc1eebdb046084678ee6364099687e156332d2e34dede"
 
   depends_on "imagemagick"
   depends_on "python"
