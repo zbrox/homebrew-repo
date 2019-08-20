@@ -59,6 +59,11 @@ class Kbdgen < Formula
     url "https://files.pythonhosted.org/packages/9e/a0/1ecb5593a5da69a44ae8fc5b8b831a08b6801f500aea1341ee3224f29ebb/pycountry-18.5.26.tar.gz"
     sha256 "7f2aa2529c60f6575af3cd644688b201b97016822ce0ce1c4bcc0f7d08900997"
   end
+  
+  resource "poetry" do
+    url "https://files.pythonhosted.org/packages/ad/da/47b0efdd2857d2eddff7ecb9a3dba6163d1909639671299255f6fd11cb0b/poetry-0.12.17.tar.gz"
+    sha256 "6e535de38df7e6ab46ff8d197f53632b071675287d1477efc7bf4a5c4c63bc3f"
+  end
 
   def install
     virtualenv_install_with_resources
